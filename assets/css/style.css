@@ -89,8 +89,12 @@ a:active {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* h2 {
+    border-bottom: 10px #777777;
+} */
+
 .main-content {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 910px;
     padding: 25px;
     background-color: #ffffff;
@@ -161,7 +165,6 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 10px;
 }
 
 /* .button {
@@ -191,7 +194,17 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-#message {
+textarea {
+    width: 900px;
     height: 200px;
+    padding: 3.5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#message {
+    height: 180px;
     resize: none;
 }
